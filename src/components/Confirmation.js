@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Container, Header, Menu, Image, Button } from 'semantic-ui-react';
 
-import Footer from './Footer';
+
 
 class Confirmation extends Component {
   static propTypes = {
@@ -40,7 +40,7 @@ class Confirmation extends Component {
           <Image centered id='confirmation-img'  src='https://media.giphy.com/media/j1p1Z7XaX8HEQ/giphy.gif' />
           <Button onClick={this.handleClick} color='teal' size='large' id='confirmation-new-btn'>Start a fresh order</Button>
         </Container>
-        <Footer />
+    
       </Fragment>
     )
   }

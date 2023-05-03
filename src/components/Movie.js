@@ -20,7 +20,7 @@ class Movie extends Component {
             <div id='movie-book-info'>
             <Header as='h3'>{formatPrice(price)}</Header>
             <p>
-              <Button onClick={() => this.props.book(this.props.index) toast.success("Movie booked add number of seats in checkout"} color='teal'>Book</Button>
+              <Button onClick={() => this.props.book(this.props.index),toast.success("Movie booked add number of seats in checkout"} color='teal'>Book</Button>
             </p>
           </div>
 

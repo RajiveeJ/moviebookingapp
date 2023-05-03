@@ -34,7 +34,7 @@ class Cart extends Component {
               <Button as={Link} to='/menu' color='teal' size='large'>Go to Movie</Button>
             </Container>
           </Container>
-          <Footer />
+         
         </Fragment>
       )
     }
@@ -61,7 +61,7 @@ class Cart extends Component {
             </Container>
             </Container>
           </Container>
-          <Footer />
+      
       </Fragment>
     );
   }

@@ -6,7 +6,7 @@ import { formatPrice } from '../helpers';
 
 import NavBar from './NavBar';
 import Seat from './Seat';
-import Footer from './Footer';
+
 
 class Cart extends Component {
 

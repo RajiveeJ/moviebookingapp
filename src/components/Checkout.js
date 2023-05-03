@@ -8,7 +8,7 @@ import { formatPrice } from '../helpers';
 import NavBar from './NavBar';
 import CustomerDetailsForm from './CustomerDetailsForm';
 import PaymentForm from './PaymentForm';
-import Footer from './Footer';
+
 
 class Checkout extends Component {
 
@@ -77,7 +77,7 @@ class Checkout extends Component {
             </Grid.Column>
           </Grid>
         </Container>
-        <Footer />
+       
       </Fragment>
     )
   }

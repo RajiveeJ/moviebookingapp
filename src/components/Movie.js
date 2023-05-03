@@ -11,8 +11,8 @@ class Movie extends Component {
   }
   
    handleSubmit = () => {
-     this.props.book(this.props.index)}
-     toast.success("Movie booked add number of seats in checkout") 
+     this.props.book(this.props.index)
+     toast.success("Movie booked add number of seats in checkout");
     }
   render(){
     const {name, image, price } = this.props.details;

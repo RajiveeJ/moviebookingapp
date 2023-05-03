@@ -42,7 +42,7 @@ class Checkout extends Component {
 
   handleSubmit = () => {
     
-      alert("Successfully booked!!!! Enjoy your movie time!!!");
+      alert("Successfully booked and tickets sent to your mail!!!! Enjoy your movie time!!!");
      
     
   }

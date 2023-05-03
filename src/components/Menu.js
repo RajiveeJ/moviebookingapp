@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Header, Container, Button } from 'semantic-ui-react';
 
 import NavBar from './NavBar';
-import Footer from './Footer';
+
 import PizzaContainer from './PizzaContainer';
 
 const Menu = (props) => (
@@ -21,7 +21,7 @@ const Menu = (props) => (
           <PizzaContainer book={props.book} />
       </Container>
     </Container>
-    <Footer />
+  
   </Fragment>
 );
 

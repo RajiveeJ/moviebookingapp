@@ -48,7 +48,7 @@ class Cart extends Component {
             <Button as={Link} to='/menu' color='teal' size='large' id='cart-menu-btn'>Back to Movies</Button>
           </Container>
           <Container id='order-box'>
-            <Order
+            <Seat
               seat={this.props.seat}
               book={this.props.book}
               removeFromOrder={this.props.removeFromOrder}

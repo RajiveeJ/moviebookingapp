@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import {  Container } from 'semantic-ui-react';
 
 
-import Seat from './Seat';
+
 
 
 class Paid extends Component {

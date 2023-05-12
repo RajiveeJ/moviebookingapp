@@ -9,6 +9,7 @@ import Home from './Home';
 import Menu from './Menu';
 import Cart from './Cart';
 import Checkout from './Checkout';
+import Paid from './Paid';
 import Confirmation from './Confirmation';
 
 class App extends Component {
@@ -147,6 +148,7 @@ class App extends Component {
                 customerDetails={this.state.customer}
                 clearState={this.clearState}
                 />
+                   <Route path="/paid" element={<Paid />} />
               }
           />
             </Switch>

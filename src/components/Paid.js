@@ -1,11 +1,25 @@
-import React from "react";
+import React, { Fragment } from 'react';
 
-export default function Paid() {
+
+import { Header } from 'semantic-ui-react';
+
+
+
+
+const Paid = (props) => (
+  <Fragment>
     
-    return (
-        <div>
-            Successfully booked tickets and sent to mail, Enjoy your movie time!!!!!!!!!!!!!
-        </div>
-     
-    );
-}
+    <Container id='page-container'>
+      <Header as='h1' id='page-header'>Successfully Booked tickets and sent to mail!!!!!</Header>
+      <Container textAlign='center' id='menu-free-banner'>
+
+      </Container>
+      
+    </Container>
+  
+  </Fragment>
+);
+
+
+
+export default Paid;

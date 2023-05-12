@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import { Container, Header, Menu, Image, Button } from 'semantic-ui-react';
+import { Container, Header, Menu, Button } from 'semantic-ui-react';
 
 
 
@@ -25,7 +25,7 @@ class Confirmation extends Component {
       return <Redirect push to='/' />;
     }
 
-    const { firstName, address } = this.props.customerDetails;
+    const { firstName } = this.props.customerDetails;
 
     return(
       <Fragment>

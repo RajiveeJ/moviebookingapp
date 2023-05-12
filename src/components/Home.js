@@ -31,7 +31,7 @@ class Home extends Component {
     const formattedun = this.state.un.toUpperCase().replace(/\s/g, "");
     const formattedpass = this.state.pass.toUpperCase().replace(/\s/g, "");
 
-    if( formattedun === 'USER' && formattedpass === 'USER123' ) {
+    if( formattedun === 'DEMO@GMAIL.COM' && formattedpass === 'DEMO123' ) {
       this.props.history.push('/menu');
       this.setState({
         un: formattedun
@@ -67,7 +67,7 @@ class Home extends Component {
                 
                 <Form.Button type='submit' color='teal' size='large' width={4} id='home-btn'>Get Started</Form.Button>
               </Form.Group>
-              <Label color='orange' size='medium' id='home-label'><span role='img' aria-label='point-right'>👉</span> Hint: username - user password - user123 </Label>
+              <Label color='orange' size='medium' id='home-label'><span role='img' aria-label='point-right'>👉</span> Hint: username - demo@gmail.com password - demo123 </Label>
             </Form>
           </Container>
         </Container>

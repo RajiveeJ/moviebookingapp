@@ -143,12 +143,13 @@ class App extends Component {
                   loadSampleCustomer={this.loadSampleCustomer} />
               </StripeProvider> }
             />
+                    <Route exact path="/paid" element={<Paid />} />
           <Route exact path='/confirmed' render={ (props) =>
               <Confirmation {...props}
                 customerDetails={this.state.customer}
                 clearState={this.clearState}
                 />
-                   <Route path="/paid" element={<Paid />} />
+                   
               }
           />
             </Switch>

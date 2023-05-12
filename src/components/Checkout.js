@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Elements } from 'react-stripe-elements';
 import { Grid, Container, Header, Button } from 'semantic-ui-react';
 import { formatPrice } from '../helpers';
+import { Link  } from 'react-router-dom';
 
 import NavBar from './NavBar';
 import CustomerDetailsForm from './CustomerDetailsForm';

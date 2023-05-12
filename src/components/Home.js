@@ -42,6 +42,9 @@ class Home extends Component {
         validun: false
       });
     }
+    if( formattedun !== 'DEMO@GMAIL.COM' || formattedpass !== 'DEMO123' ) {
+      alert("Invalid Username or Password");
+    } 
   }
 
   closeModal = () => {

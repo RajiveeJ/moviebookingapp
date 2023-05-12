@@ -20,7 +20,7 @@ class Cart extends Component {
 
   render(){
     const totalMoviePrice = this.props.priceTotal;
-    const deliveryPrice = this.props.priceTotal < 1200 ? 500 : 0;
+    const deliveryPrice = this.props.priceTotal;
     const checkoutTotal = totalMoviePrice + deliveryPrice;
 
     if (this.props.priceTotal === 0) {
@@ -54,8 +54,7 @@ class Cart extends Component {
               removeFromOrder={this.props.removeFromOrder}
             />
             <Container id='cart-total'>
-              <p>Price: <strong>{formatPrice(totalMoviePrice)}</strong></p>
-              <p>Booking (free over £12): <strong>{formatPrice(deliveryPrice)}</strong></p>
+      
               <p>Total: <strong>{formatPrice(checkoutTotal)}</strong></p>
               <Button as={Link} to='/checkout' id='cart-checkout-btn' color='teal' onClick={() => this.props.updateCheckoutTotal(checkoutTotal)}>Go to Payment</Button>
             </Container>

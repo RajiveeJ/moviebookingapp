@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Link  } from 'react-router-dom';
 import { Grid, Image, Button, Segment, Header } from 'semantic-ui-react';
 import { formatPrice } from '../helpers';
 

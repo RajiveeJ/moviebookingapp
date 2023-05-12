@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { Header, Container } from 'semantic-ui-react';
 
-import NavBar from './NavBar';
+
 
 import PizzaContainer from './PizzaContainer';
 

@@ -34,11 +34,11 @@ class Confirmation extends Component {
       </Menu>
         <Container textAlign='center' id='confirmation-container'>
           <Header as='h1' id='page-header'>Thanks, {firstName}!</Header>
-          <p id='confirmation-text'>Your Booking, <strong>#2222</strong> is successfull </p>
-          <p><strong>{address}</strong></p>
-          <p>within the next hour <span role='img' aria-label='motorcycle'>🛵</span> </p>
-          <Image centered id='confirmation-img'  src='https://media.giphy.com/media/j1p1Z7XaX8HEQ/giphy.gif' />
-          <Button onClick={this.handleClick} color='teal' size='large' id='confirmation-new-btn'>Start a fresh order</Button>
+          <p id='confirmation-text'>Your Booking is successfull!!!! </p>
+         
+          <p>Tickets sent to your mail, Enjoy your movie!!!!  </p>
+          
+          <Button onClick={this.handleClick} color='teal' size='large' id='confirmation-new-btn'>Book new tickects or logout</Button>
         </Container>
     
       </Fragment>

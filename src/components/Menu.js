@@ -11,7 +11,7 @@ const Menu = (props) => (
   <Fragment>
     
     <Container id='page-container'>
-      <Header as='h1' id='page-header'>Movie Selection</Header>
+      <Header as='h1' id='page-header'>Movie Selection in Multiplex Theatre</Header>
       <Container textAlign='center' id='menu-free-banner'>
 
       </Container>

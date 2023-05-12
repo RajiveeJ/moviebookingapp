@@ -9,9 +9,7 @@ import PizzaContainer from './PizzaContainer';
 
 const Menu = (props) => (
   <Fragment>
-    <NavBar seat={props.seat} priceTotal={props.priceTotal}>
-      
-    </NavBar>
+    
     <Container id='page-container'>
       <Header as='h1' id='page-header'>Movie Selection</Header>
       <Container textAlign='center' id='menu-free-banner'>

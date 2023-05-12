@@ -20,7 +20,7 @@ class Cart extends Component {
 
   render(){
     const totalMoviePrice = this.props.priceTotal;
-    const deliveryPrice = this.props.priceTotal;
+
     const checkoutTotal = totalMoviePrice;
 
     if (this.props.priceTotal === 0) {

@@ -10,7 +10,7 @@ import PizzaContainer from './PizzaContainer';
 const Menu = (props) => (
   <Fragment>
     <NavBar seat={props.seat} priceTotal={props.priceTotal}>
-      {props.priceTotal > 0 && <Button as={Link} to='/cart' color='teal' id='menu-checkout-btn'>Checkout</Button>}
+      
     </NavBar>
     <Container id='page-container'>
       <Header as='h1' id='page-header'>Movie Selection</Header>

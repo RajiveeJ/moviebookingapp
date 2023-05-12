@@ -62,10 +62,10 @@ class Home extends Component {
             <Form size='large' onSubmit={this.handlePostcodeSubmit} fluid='true'>
               <Form.Group >
                   
-                    <Form.Input placeholder='Enter your username' name='un' onChange={this.handleChange} value={this.state.un}  required id='home-form1'/>
-                  <Form.Input type='password' placeholder='Enter your password' name='pass' onChange={this.handleChange1} value={this.state.pass}  required id='home-form2'/>
+                    <Form.Input placeholder='Enter your username' name='un' onChange={this.handleChange} value={this.state.un}  required id='home-form1'/> <br>
+                  <Form.Input type='password' placeholder='Enter your password' name='pass' onChange={this.handleChange1} value={this.state.pass}  required id='home-form2'/><br>
                 
-                <Form.Button type='submit' color='teal' size='large' width={4} id='home-btn'>Get Started</Form.Button>
+                <Form.Button type='submit' color='teal' size='large' width={4} id='home-btn'>Book now</Form.Button>
               </Form.Group>
               <Label color='orange' size='medium' id='home-label'><span role='img' aria-label='point-right'>👉</span> Hint: username - demo@gmail.com password - demo123 </Label>
             </Form>

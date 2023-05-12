@@ -133,6 +133,13 @@ class App extends Component {
                 removeFromOrder={this.removeFromOrder}
                 seat={this.state.seat}
                 updateCheckoutTotal={this.updateCheckoutTotal} /> } />
+    <Route exact path='/paid' render={ (props) =>
+              <Paid {...props}
+                priceTotal={this.state.priceTotal}
+                book={this.book}
+                removeFromOrder={this.removeFromOrder}
+                seat={this.state.seat}
+                updateCheckoutTotal={this.updateCheckoutTotal} /> } />
             <Route exact path='/checkout' render={ (props) =>
               <StripeProvider apiKey='pk_test_12345'>
                 <Checkout {...props}
@@ -143,7 +150,7 @@ class App extends Component {
                   loadSampleCustomer={this.loadSampleCustomer} />
               </StripeProvider> }
             />
-                    <Route exact path="/paid" element={<Paid />} />
+                   
           <Route exact path='/confirmed' render={ (props) =>
               <Confirmation {...props}
                 customerDetails={this.state.customer}

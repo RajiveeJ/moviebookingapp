@@ -23,7 +23,7 @@ class Movie extends Component {
             <Header as='h3'>{formatPrice(price)}</Header>
             <p>
               <Button onClick={()=>this.props.book(this.props.index)} as={Link} to='/cart' color='teal'>Book</Button>
-              <Button as={Link} to='/cart' color='teal' id='menu-checkout-btn'>Checkout</Button>
+              
             </p>
           </div>
 

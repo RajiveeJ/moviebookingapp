@@ -1,25 +1,42 @@
-import React, { Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
+
+import PropTypes from 'prop-types';
+import {  Container } from 'semantic-ui-react';
 
 
-import { Header,Container } from 'semantic-ui-react';
+import Seat from './Seat';
 
 
+class Paid extends Component {
 
+  static propTypes = {
+    priceTotal: PropTypes.number,
+    book: PropTypes.func.isRequired,
+    removeFromOrder: PropTypes.func.isRequired,
+    seat: PropTypes.array,
+    updateCheckoutTotal: PropTypes.func.isRequired,
+  }
 
-const Paid = (props) => (
-  <Fragment>
+  render(){
+   
+
+      return (
+        <Fragment>
+         
+          <Container id='page-container'>
+           
+            <Container id='cart-empty-box'>
+              <p id='cart-empty-text'>Your booking is successfull!!! tickets sent to mail, Enjoy movie!!!!</p>
+              
+            </Container>
+          </Container>
+         
+        </Fragment>
+      )
     
-    <Container id='page-container'>
-      <Header as='h1' id='page-header'>Successfully Booked tickets and sent to mail!!!!!</Header>
-      <Container textAlign='center' id='menu-free-banner'>
 
-      </Container>
-      
-    </Container>
-  
-  </Fragment>
-);
-
-
+    
+  }
+}
 
 export default Paid;

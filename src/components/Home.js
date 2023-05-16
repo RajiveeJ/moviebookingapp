@@ -77,7 +77,7 @@ class Home extends Component {
                 
                 <Form.Button type='submit' color='teal' size='large' width={4} id='home-btn'>Book now</Form.Button>
               </Form.Group>
-              <Label color='orange' size='medium' id='home-label'><span role='img' aria-label='point-right'>👉</span> Hint: username - demo@gmail.com|admin@gmail.com password - admin123 </Label>
+              <Label color='orange' size='medium' id='home-label'><span role='img' aria-label='point-right'>👉</span> Hint: username - demo@gmail.com|admin@gmail.com password - admin123|demo123 </Label>
             </Form>
           </Container>
         </Container>

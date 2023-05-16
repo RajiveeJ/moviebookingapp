@@ -37,7 +37,14 @@ class Home extends Component {
         un: formattedun
       });
       this.props.updateun(formattedun);
-    } else {
+    }
+    else if( formattedun === 'ADMIN@GMAIL.COM' && formattedpass === 'ADMIN123' ) {
+      this.props.history.push('/menu');
+      this.setState({
+        un: formattedun
+      });
+      this.props.updateun(formattedun);
+    }else {
       this.setState({
         validun: false
       });
@@ -70,7 +77,7 @@ class Home extends Component {
                 
                 <Form.Button type='submit' color='teal' size='large' width={4} id='home-btn'>Book now</Form.Button>
               </Form.Group>
-              <Label color='orange' size='medium' id='home-label'><span role='img' aria-label='point-right'>👉</span> Hint: username - demo@gmail.com password - demo123 </Label>
+              <Label color='orange' size='medium' id='home-label'><span role='img' aria-label='point-right'>👉</span> Hint: username - demo@gmail.com|admin@gmail.com password - admin123 </Label>
             </Form>
           </Container>
         </Container>
